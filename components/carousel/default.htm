@@ -2,7 +2,7 @@
   {% if carousel.images|length > 1 %}
   <ol class="carousel-indicators">
   {% for i, image in carousel.images %}
-    <li data-target="#carousel-{{ carousel.id }}" data-slide-to="{{ image.id - 1 }}"{% if loop.first %} class="active"{% endif %}></li>
+    <li data-target="#carousel-{{ carousel.id }}" data-slide-to="{{ loop.index - 1 }}"{% if loop.first %} class="active"{% endif %}></li>
   {% endfor %}
   </ol>
   {% endif %}
