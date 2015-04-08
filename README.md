@@ -1,8 +1,8 @@
 # [Carousel-Plugin](https://github.com/SaifurRahmanMohsin/Carousel-Plugin) #
 Bootstrap Carousel plugin for October CMS
 
-[![development](https://img.shields.io/badge/State-Development-red.svg)](https://img.shields.io/badge/State-Development-red.svg)
-[![dependencies](https://img.shields.io/badge/Dependencies-Twitter%20Bootstrap-green.svg)](https://img.shields.io/badge/Dependencies-Twitter%20Bootstrap-green.svg)
+[![development](https://img.shields.io/badge/State-Development-red.svg)](https://img.shields.io/badge/state-Ready-red.svg)
+[![dependencies](https://img.shields.io/badge/Dependencies-Twitter%20Bootstrap-green.svg)](https://img.shields.io/badge/dependencies-Twitter%20Bootstrap-green.svg)
 [![platform](https://img.shields.io/badge/platform-OctoberCMS-orange.svg)](https://img.shields.io/badge/platform-OctoberCMS-orange.svg)
 
 ## Installation ##
