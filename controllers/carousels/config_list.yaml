@@ -9,7 +9,7 @@ list: $/mohsin/carousel/models/carousel/columns.yaml
 modelClass: Mohsin\Carousel\Models\Carousel
 
 # List Title
-title: Manage Carousels
+title: mohsin.carousel::lang.carousels.manage_carousels
 
 # Link URL for each record
 recordUrl: mohsin/carousel/carousels/update/:id

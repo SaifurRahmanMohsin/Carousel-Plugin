@@ -10,11 +10,6 @@ use System\Classes\SettingsManager;
 class Plugin extends PluginBase
 {
 
-    /**
-     * Returns information about this plugin.
-     *
-     * @return array
-     */
     public function pluginDetails()
     {
       return [
@@ -40,7 +35,7 @@ class Plugin extends PluginBase
           'url'         => Backend::url('mohsin/carousel/carousels'),
           'description' => 'mohsin.carousel::lang.plugin.description',
           'category'    => SettingsManager::CATEGORY_CMS,
-          'icon'        => 'icon-film',
+          'icon'        => 'icon-arrows-h',
           'permissions' => ['mohsin.carousel.*'],
           'order'       => 200
         ],

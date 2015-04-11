@@ -16,16 +16,16 @@ defaultRedirect: mohsin/carousel/carousels
 
 # Create page
 create:
-    title: Create Carousel
+    title: mohsin.carousel::lang.carousels.create_carousels
     redirect: mohsin/carousel/carousels/update/:id
     redirectClose: mohsin/carousel/carousels
 
 # Update page
 update:
-    title: Edit Carousel
+    title: mohsin.carousel::lang.carousels.update_carousels
     redirect: mohsin/carousel/carousels
     redirectClose: mohsin/carousel/carousels
 
 # Preview page
 preview:
-    title: Preview Carousel
+    title: mohsin.carousel::lang.carousels.preview_carousels

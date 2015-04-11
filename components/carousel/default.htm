@@ -13,8 +13,11 @@
     <div class="item{% if loop.first %} active{% endif %}">
       <img src="{{ image.path }}" alt="{{ image.title }}">
       <div class="carousel-caption">
-        <h3>{{ image.title }}</h3>
-        <p>{{ image.description }}</p>
+
+        {% if image.title %}<h3>{{ image.title }}</h3>{% endif %}
+
+        {% if image.description %}<p>{{ image.description }}</p>{% endif %}
+
       </div>
     </div>
     {% endfor %}

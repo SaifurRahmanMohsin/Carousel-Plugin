@@ -20,6 +20,7 @@ class Carousels extends Controller
     public function __construct()
     {
         parent::__construct();
+
         BackendMenu::setContext('October.System', 'system', 'settings');
         SettingsManager::setContext('Mohsin.Carousel', 'carousels');
     }
