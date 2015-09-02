@@ -9,8 +9,8 @@ class Carousel extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'mohsin.carousel::lang.carousel.name',
-            'description' => 'mohsin.carousel::lang.carousel.desc'
+            'name'        => 'mohsin.carousel::lang.settings.name',
+            'description' => 'mohsin.carousel::lang.settings.description'
         ];
     }
 
@@ -18,8 +18,8 @@ class Carousel extends ComponentBase
     {
         return [
           'id' => [
-            'title'        => 'mohsin.carousel::lang.carousel.name',
-            'description'  => 'mohsin.carousel::lang.carousel.choice',
+            'title'        => 'mohsin.carousel::lang.settings.name',
+            'description'  => 'mohsin.carousel::lang.settings.choice',
             'type'         => 'dropdown'
             ],
           ];
@@ -27,13 +27,13 @@ class Carousel extends ComponentBase
 
     public function getidOptions()
     {
-      return CarouselModel::select('id', 'name')->orderBy('name')->get()->lists('name', 'id');
+      return CarouselModel::select('id', 'name') -> orderBy('name') -> get() -> lists('name', 'id');
     }
 
-    public function onRender()
+    public function onRun()
     {
       $carousel = new CarouselModel;
-      $this -> carousel = $this -> page['carousel'] = $carousel->where('id', '=', $this -> property('id')) -> first();
+      $this -> carousel = $this -> page['carousel'] = $carousel -> where('id', '=', $this -> property('id')) -> first();
     }
 
 }

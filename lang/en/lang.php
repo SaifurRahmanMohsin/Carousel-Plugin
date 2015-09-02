@@ -16,9 +16,9 @@ return [
     'delete_confirm' => 'Do you really want to delete this carousel?',
     'return_to_carousels' => 'Return to carousels list',
   ],
-  'carousel' => [
+  'settings' => [
     'name' => 'Carousel',
-    'desc' => 'Add a carousel to the page.',
+    'description' => 'Add a carousel to the page.',
     'choice' => 'Choose the carousel that you want to display.',
   ],
 ];

@@ -31,7 +31,7 @@ class Plugin extends PluginBase
     {
       return [
         'carousels' => [
-          'label'       => 'mohsin.carousel::lang.carousel.name',
+          'label'       => 'mohsin.carousel::lang.settings.name',
           'url'         => Backend::url('mohsin/carousel/carousels'),
           'description' => 'mohsin.carousel::lang.plugin.description',
           'category'    => SettingsManager::CATEGORY_CMS,
