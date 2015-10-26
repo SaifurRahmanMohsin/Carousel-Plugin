@@ -4,11 +4,11 @@
 
 columns:
     id:
-        label: ID
+        label: mohsin.carousel::lang.model.id
         searchable: true
 
     created_at:
-        label: Created
+        label: mohsin.carousel::lang.model.created
 
     updated_at:
-        label: Updated
+        label: mohsin.carousel::lang.model.updated
