@@ -5,9 +5,9 @@
 fields:
     name:
         span: full
-        label: Name
+        label: mohsin.carousel::lang.model.name
 
     images:
-        label: Photos
+        label: mohsin.carousel::lang.model.photos
         type: fileupload
         mode: image

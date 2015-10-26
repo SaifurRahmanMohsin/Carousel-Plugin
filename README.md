@@ -3,11 +3,11 @@ Bootstrap Carousel plugin for October CMS
 
 [![development](https://img.shields.io/badge/state-Ready-red.svg)](https://img.shields.io/badge/state-Ready-red.svg)
 [![dependencies](https://img.shields.io/badge/dependencies-Twitter%20Bootstrap-green.svg)](https://img.shields.io/badge/dependencies-Twitter%20Bootstrap-green.svg)
-[![platform](https://img.shields.io/badge/platform-OctoberCMS-orange.svg)](https://img.shields.io/badge/platform-OctoberCMS-orange.svg)
+[![platform](https://img.shields.io/badge/platform-October%20CMS-orange.svg)](https://img.shields.io/badge/platform-October%20CMS-orange.svg)
 
 ## Installation ##
 
-Until this plugin is in the marketplace you have to manually install the plugin. This can be done from the command line. CD into your OctoberCMS project folder and paste these commands. It will execute one after another:
+Until this plugin is in [the marketplace](https://octobercms.com/plugin/mohsin-carousel) you have to manually install the plugin. This can be done from the command line. CD into your OctoberCMS project folder and paste these commands. It will execute one after another:
 ```
 [ -f artisan ] && cd plugins
 mkdir -p mohsin && cd $_
