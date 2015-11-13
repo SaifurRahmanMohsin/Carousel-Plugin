@@ -2,8 +2,10 @@
 
 return [
   'plugin' => [
-    'name'        => 'Bootstrap Carousel',
-    'description' => 'Create responsive carousels.'
+    'name'                => 'Bootstrap Carousel',
+    'description'         => 'Create responsive carousels.',
+    'tab'                 => 'Carousel',
+    'permission_label'    => 'Manage Carousels'
   ],
   'carousels' => [
     'name'                => 'Name',
@@ -28,4 +30,5 @@ return [
     'created' => 'Created at',
     'updated' => 'Updated at',
   ],
+  'permission' => []
 ];
