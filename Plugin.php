@@ -26,6 +26,13 @@ class Plugin extends PluginBase
         'Mohsin\Carousel\Components\Carousel' => 'carousel'
       ];
     }
+    
+    public function registerPermissions()
+    {
+        return [
+            'mohsin.carousel.manage' => ['tab' => 'mohsin.carousel::lang.plugin.tab', 'label' => 'mohsin.carousel::mohsin.carousel::lang.plugin.permission_label']
+        ];
+    }
 
     public function registerSettings()
     {
