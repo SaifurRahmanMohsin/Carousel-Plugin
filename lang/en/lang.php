@@ -30,5 +30,4 @@ return [
     'created' => 'Created at',
     'updated' => 'Updated at',
   ],
-  'permission' => []
 ];
