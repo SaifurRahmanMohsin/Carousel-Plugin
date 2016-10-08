@@ -5,6 +5,11 @@ use Mohsin\Carousel\Models\Carousel as CarouselModel;
 
 class Carousel extends ComponentBase
 {
+    /**
+     * The carousel to display
+     * @var Model
+     */
+    public $carousel;
 
     public function componentDetails()
     {
@@ -27,13 +32,13 @@ class Carousel extends ComponentBase
 
     public function getidOptions()
     {
-      return CarouselModel::select('id', 'name') -> orderBy('name') -> get() -> lists('name', 'id');
+        return CarouselModel::select('id', 'name') -> orderBy('name') -> get() -> lists('name', 'id');
     }
 
     public function onRun()
     {
-      $carousel = new CarouselModel;
-      $this -> carousel = $this -> page['carousel'] = $carousel -> where('id', '=', $this -> property('id')) -> first();
+        $carousel = new CarouselModel;
+        $this -> carousel = $carousel -> where('id', '=', $this -> property('id')) -> first();
     }
 
 }
