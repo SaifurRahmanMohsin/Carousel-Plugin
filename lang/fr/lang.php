@@ -3,17 +3,17 @@
 return [
   'plugin' => [
     'name'        => 'Carrousel Bootstrap',
-    'description' => 'Crée des carrousel responsive.'
+    'description' => 'Crée des carrousels responsive.'
   ],
   'carousels' => [
     'name'                => 'Nom',
     'plural'              => 'Carrousels',
-    'new_carousel'        => 'Nouveau Carrousel',
-    'create_carousels'    => 'Créer un Carrouse',
-    'update_carousels'    => 'Modifier un Carrouse',
-    'manage_carousels'    => 'Liste des Carrouse',
-    'preview_carousels'   => 'Aperçu un Carrouse',
-    'delete_confirm'      => 'Voulez-vous vraiment supprimer ce carrousel?',
+    'new_carousel'        => 'Nouveau carrousel',
+    'create_carousels'    => 'Créer un carrousel',
+    'update_carousels'    => 'Modifier un carrousel',
+    'manage_carousels'    => 'Liste des carrousel',
+    'preview_carousels'   => 'Aperçu un carrousel',
+    'delete_confirm'      => 'Voulez-vous vraiment supprimer ce carrousel ?',
     'return_to_carousels' => 'Retourner à la liste des carrousels',
   ],
   'settings' => [
@@ -26,6 +26,6 @@ return [
     'photos'  => 'Photos',
     'id'      => 'ID',
     'created' => 'Créer à',
-    'updated' => 'Modifiré à',
+    'updated' => 'Modifié à',
   ],
 ];
