@@ -3,7 +3,8 @@
 return [
   'plugin' => [
     'name'        => 'Carrousel Bootstrap',
-    'description' => 'Crée des carrousels responsive.'
+    'description' => 'Crée des carrousels responsive.',
+    'tab' => 'Carrousel'
   ],
   'carousels' => [
     'name'                => 'Nom',
@@ -28,4 +29,7 @@ return [
     'created' => 'Créer à',
     'updated' => 'Modifié à',
   ],
+  'permissions' => [
+    'manage_carousels' => 'Gérer les carrousels',
+  ]
 ];

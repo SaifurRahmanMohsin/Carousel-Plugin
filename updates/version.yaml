@@ -5,3 +5,5 @@
 1.0.2: Improved HTML semantics and language support.
 1.0.3: Minor improvements.
 1.0.4: Bug fix for multiple carousel components in same page.
+1.0.5:
+  - !!! Developer can now chose display carousels section in navigation menu or settings page.

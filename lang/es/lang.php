@@ -3,8 +3,7 @@ return [
   'plugin' => [
     'name'                => 'Bootstrap Carousel',
     'description'         => 'Crea presentaciones de imágenes tipo carrusel.',
-    'tab'                 => 'Presentaciones',
-    'permission_label'    => 'Administrar presentaciones'
+    'tab'                 => 'Presentaciones'
   ],
   'carousels' => [
     'name'                => 'Nombre',
@@ -29,4 +28,7 @@ return [
     'created' => 'Creado',
     'updated' => 'Actualizado',
   ],
+  'permissions' => [
+    'manage_carousels' => 'Administrar presentaciones'
+  ]
 ];

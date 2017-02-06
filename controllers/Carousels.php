@@ -2,6 +2,7 @@
 
 use BackendMenu;
 use Backend\Classes\Controller;
+use Backend\Models\BrandSetting;
 use System\Classes\SettingsManager;
 
 /**
@@ -21,7 +22,7 @@ class Carousels extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('October.System', 'system', 'settings');
+        BrandSetting::instance()->get('show_carousels_in_nav') ? BackendMenu::setContext('Mohsin.Carousel', 'carousels') : BackendMenu::setContext('October.System', 'system', 'settings');
         SettingsManager::setContext('Mohsin.Carousel', 'carousels');
     }
 }
