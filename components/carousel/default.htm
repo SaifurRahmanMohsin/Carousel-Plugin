@@ -14,7 +14,7 @@
       <img src="{{ image.path }}" alt="{{ image.title }}">
 
       {# Show caption only if there is image title or description #}
-      {% if image.title || image.description %}
+      {% if image.title or image.description %}
       <div class="carousel-caption">
 
         {% if image.title %}<h3>{{ image.title }}</h3>{% endif %}
