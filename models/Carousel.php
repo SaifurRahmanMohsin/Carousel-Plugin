@@ -26,11 +26,4 @@ class Carousel extends Model
       'name' => 'required|between:3,64',
     ];
 
-    /**
-     * @var array Attach Many relation
-     */
-    public $attachMany = [
-      'images' => ['System\Models\File', 'order' => 'sort_order'],
-    ];
-
 }

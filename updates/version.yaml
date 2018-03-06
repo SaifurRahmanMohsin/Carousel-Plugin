@@ -10,3 +10,7 @@
 1.0.6:
   - Show caption only if there is image title or description
 1.0.7: Caption is now available only if title or description was added. Thanks @Gabriele
+1.0.8:
+  - Media finder version (Experiment)
+  - Add image field to the carousels table.
+  - carousels_add_image.php

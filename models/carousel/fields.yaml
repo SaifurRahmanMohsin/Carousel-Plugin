@@ -7,7 +7,7 @@ fields:
         span: full
         label: mohsin.carousel::lang.model.name
 
-    images:
+    image:
         label: mohsin.carousel::lang.model.photos
-        type: fileupload
+        type: mediafinder
         mode: image
