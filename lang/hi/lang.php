@@ -2,38 +2,38 @@
 
 return [
   'plugin' => [
-      'name' => 'Bootstrap Carousel',
-      'description' => 'Create responsive carousels.',
-      'tab' => 'Carousel'
+      'name' => 'बूटस्ट्रैप हिंडोला',
+      'description' => 'प्रतिक्रियाशील हिंडोला बनाएं।',
+      'tab' => 'हिंडोला'
   ],
   'carousels' => [
-      'name' => 'Name',
-      'plural' => 'Carousels',
-      'new_carousel' => 'New Carousel',
-      'create_carousels' => 'Create Carousels',
-      'update_carousels' => 'Update Carousels',
-      'manage_carousels' => 'Manage Carousels',
-      'preview_carousels' => 'Preview Carousels',
-      'delete_confirm' => 'Do you really want to delete this carousel?',
-      'return_to_carousels' => 'Return to carousels list',
+      'name' => 'नाम',
+      'plural' => 'हिंडोला',
+      'new_carousel' => 'नया हिंडोला',
+      'create_carousels' => 'हिंडोला बनाएं',
+      'update_carousels' => 'हिंडोला अपडेट करें',
+      'manage_carousels' => 'हिंडोला प्रबंधित करें',
+      'preview_carousels' => 'पूर्वावलोकन हिंडोला',
+      'delete_confirm' => 'क्या आप वाकई इस हिंडोला को हटाना चाहते हैं?',
+      'return_to_carousels' => 'हिंडोला सूची पर लौटें',
   ],
   'settings' => [
-      'name' => 'Carousel',
-      'description' => 'Add a carousel to the page.',
-      'choice' => 'Choose the carousel that you want to display.',
+      'name' => 'हिंडोला',
+      'description' => 'पृष्ठ में हिंडोला जोड़ें।',
+      'choice' => 'वह हिंडोला चुनें जिसे आप प्रदर्शित करना चाहते हैं।',
   ],
   'preferences' => [
-    'show_carousels_in_nav_label' => 'Display the carousels in navigation',
-    'show_carousels_in_nav_comment' => 'Enabling this makes the carousels appear in the navigation menu instead of the settings page.',
+    'show_carousels_in_nav_label' => 'नेविगेशन में हिंडोला प्रदर्शित करें',
+    'show_carousels_in_nav_comment' => 'इसे सक्षम करने से कैरोसेल सेटिंग पृष्ठ के बजाय नेविगेशन मेनू में दिखाई देता है।',
   ],
   'model' => [
-      'name' => 'Name',
-      'photos' => 'Photos',
-      'id' => 'ID',
-      'created' => 'Created at',
-      'updated' => 'Updated at',
+      'name' => 'नाम',
+      'photos' => 'तस्वीरें',
+      'id' => 'पहचान',
+      'created' => 'पर बनाया गया',
+      'updated' => 'पर अपडेट किया गया',
   ],
   'permissions' => [
-    'manage_carousels' => 'Manage the carousels',
+    'manage_carousels' => 'हिंडोला प्रबंधित करें',
   ]
 ];
