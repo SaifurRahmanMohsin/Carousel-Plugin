@@ -29,9 +29,9 @@ return [
   'model' => [
       'name' => 'नाम',
       'photos' => 'तस्वीरें',
-      'id' => 'पहचान',
-      'created' => 'पर बनाया गया',
-      'updated' => 'पर अपडेट किया गया',
+      'id' => 'इड',
+      'created' => 'निर्माण तिथि',
+      'updated' => 'अद्यतन तिथि',
   ],
   'permissions' => [
     'manage_carousels' => 'हिंडोला प्रबंधित करें',
